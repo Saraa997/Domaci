@@ -1,0 +1,39 @@
+{
+    "Header": {
+        "Login": "a[href='/login']",
+        "Register": "a[href='/register']",
+        "Logout": "a[role='button ']",
+        "AllGalleries": ".nav-link.nav-buttons.router-link-exact-active.router-link-active",
+        "CreateGallery": "a[href='/create']"
+    },
+    "Register": {
+        "FirstName": "#first-name",
+        "LastName": "#last-name",
+        "Email": "#email",
+        "Password2": "#password",
+        "ConfirmedPassword": "#password-confirmation",
+        "TermsAndConditions": ".form-check-input",
+        "SumbitReg": ".btn.btn-custom"
+    },
+    "Login": {
+        "Email": "#email",
+        "Password": "#password",
+        "Submit": "button[type='submit']"
+    },
+    "AllGalleries": {
+        "LoadMoreButton" : ".btn.btn-custom",
+        "Placeholder": "input[placeholder='Search...']",
+        "FilterButton": ".btn.btn-outline-secondary.input-button",
+        "SomeGallery": "a[href='/galleries/148']",
+        "AddComment" : "textarea[placeholder='Comment...']",
+        "SubmitComment" : "button[type='submit']"
+        
+        
+    },
+    "CreateGallery": {
+        "Title": "#title",
+        "Description": "#description",
+        "ImageUrl": "input[type='url']",
+        "SubmitButton": "form > :nth-child(4)"
+    }
+}
